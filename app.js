@@ -5,8 +5,7 @@ const express = require('express')
 const phoneRoutes = require('./routes/phoneRoute');
 const app = express()
 
-// midlewares application
-// cors to allow only whitelisted urls to pass through
+
 const connectMongoDB = ({
     dbName,
     dbConnectionString,
@@ -25,7 +24,8 @@ const connectMongoDB = ({
       }
       
 } 
-
+// midlewares application
+// cors to allow only whitelisted urls to pass through
 app.use(cors({
     origin:[
         process.env.ORIGIN
