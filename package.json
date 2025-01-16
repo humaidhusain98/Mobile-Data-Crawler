@@ -1,0 +1,27 @@
+{
+  "name": "mobile-data-crawler",
+  "version": "1.0.0",
+  "description": "This App is built on Nodejs along with MongoDB as Database which leverages Puppeteer library to scrape mobile data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/humaidhusain98/Mobile-Data-Crawler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/humaidhusain98/Mobile-Data-Crawler/issues"
+  },
+  "homepage": "https://github.com/humaidhusain98/Mobile-Data-Crawler#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5",
+    "puppeteer": "^24.1.0"
+  }
+}
